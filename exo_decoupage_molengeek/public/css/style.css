@@ -1,3 +1,7 @@
+body{
+  border: solid lightgray 1px;
+}
+
 #newsletter{
   background-color: purple;
   position: relative;
@@ -14,7 +18,6 @@
 #champs_newsletter div{
   position: absolute;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   justify-content: center;
   max-resolution: 50px;
@@ -32,20 +35,75 @@ button{
   margin-left: 5px;
   color: white;
   background-color: springgreen;
-  border-radius: 7%;
+  border-radius: 8%;
 }
 nav{
   display: flex;
   align-content: space-evenly;
+  width: 100%;
 }
 nav>.logo{
   display: flex;
-  height: 150px;
-  width: 300px;
+  height: 100px;
+  width: 200px;
   border-bottom: solid lightgray 1px;
   border-right:solid lightgray 1px;
 }
-.menu{
-  align-items: flex-start;
+.menu>ul{
+  display: flex;
+  border-bottom: solid lightgray 1px;
+  width: 424%;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  margin-top: 
+  0.1px;
+  list-style-type: none;
 }
+.menu>ul>li:last-of-type{
   
+  border-left: solid lightgray 1px;
+  padding-left: 10%;max-height: max-content;
+}
+.contenu{
+  display: flex;
+}
+body>:nth-child(2){
+  position: relative;
+  display: block;
+}
+body>:nth-child(2)>h1{
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+  display: flex;
+  position: relative;
+  background-color: black;
+  border: solid lightgray 1px;
+  width: 100%;
+  height: 300px;
+}
+footer>#section{
+  border: lightgray solid 3px;
+
+}
+footer>.section{
+  position: absolute;
+  display: flex;
+  justify-content: 
+  space-evenly;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  left: 30%;
+  top: 5%;
+}
+a:link{
+  color: white;
+  border: none;
+}
+
+
