@@ -62,8 +62,13 @@ nav>.logo{
 }
 /*dernier li navbar*/
 .menu>ul>li:last-of-type{
+  display: flex;
   border-left: solid lightgray 1px;
   padding-left: 10%;
+  height: 59%;
+  padding-right: 5%;
+  padding-top: 5%;
+  margin-bottom: 20px;
 }
 .contenu{
   display: flex;
@@ -108,9 +113,9 @@ body>:nth-child(2)>h2{
   margin-bottom: 75px;
 }
 /*liste2*/
-body>:nth-child(2)>ul>li{
-  display: flex;
-  justify-content: center;
+body>:nth-child(2)>ul{
+  margin-left: 7%;
+  margin-bottom: 50px;
 }
 body>:nth-child(2)>p:last-of-type{
   display: flex;
