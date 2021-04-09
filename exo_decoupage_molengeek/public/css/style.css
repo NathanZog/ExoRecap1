@@ -20,7 +20,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  max-resolution: 50px;
   color: white;
   padding: 10px;
   margin-left: 35%;
@@ -49,6 +48,7 @@ nav>.logo{
   border-bottom: solid lightgray 1px;
   border-right:solid lightgray 1px;
 }
+/*navbar */
 .menu>ul{
   display: flex;
   border-bottom: solid lightgray 1px;
@@ -60,10 +60,10 @@ nav>.logo{
   0.1px;
   list-style-type: none;
 }
+/*dernier li navbar*/
 .menu>ul>li:last-of-type{
-  
   border-left: solid lightgray 1px;
-  padding-left: 10%;max-height: max-content;
+  padding-left: 10%;
 }
 .contenu{
   display: flex;
@@ -72,11 +72,52 @@ body>:nth-child(2){
   position: relative;
   display: block;
 }
+/*Titre*/
 body>:nth-child(2)>h1{
   display: flex;
   justify-content: center;
   font-size: 75px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: purple solid 1px;
+  margin-left: 47%;
+  margin-right: 47%;
+  padding-bottom: 75px;
+}
+/*Premier paragraphe*/
+body>:nth-child(2)>p:first-of-type{
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/*autres paragraphes*/
+body>:nth-child(2)>p{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+/*soustitre*/
+body>:nth-child(2)>h2{
+  display: flex;
+  margin-left: 100px;
+  font-size: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 75px;
+}
+/*liste2*/
+body>:nth-child(2)>ul>li{
+  display: flex;
+  justify-content: center;
+}
+body>:nth-child(2)>p:last-of-type{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 footer{
   display: flex;
@@ -84,11 +125,7 @@ footer{
   background-color: black;
   border: solid lightgray 1px;
   width: 100%;
-  height: 300px;
-}
-footer>#section{
-  border: lightgray solid 3px;
-
+  height: 700px;
 }
 footer>.section{
   position: absolute;
@@ -96,14 +133,20 @@ footer>.section{
   justify-content: 
   space-evenly;
   align-items: center;
-  width: 500px;
+  width: 100%;
   height: 100px;
-  left: 30%;
   top: 5%;
 }
-a:link{
-  color: white;
-  border: none;
+.sectionlogo>.mylogo2{
+  position: absolute;
+  display: flex;
+  top: 100px;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: center;
+  border-top: lightgray solid 1px;
+  padding-top: 200px;
 }
+
 
 
