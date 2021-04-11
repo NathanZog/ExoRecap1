@@ -99,7 +99,6 @@ body>:nth-child(2)>p:first-of-type{
 }
 /*autres paragraphes*/
 body>:nth-child(2)>p{
-  display: flex;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
@@ -132,7 +131,7 @@ footer{
   background-color: black;
   border: solid lightgray 1px;
   width: 100%;
-  height: 700px;
+  height: 400px;
 }
 footer>.section{
   position: absolute;
@@ -145,14 +144,19 @@ footer>.section{
   top: 5%;
 }
 .sectionlogo>.mylogo2{
-  position: absolute;
   display: flex;
-  top: 100px;
+  position: absolute;
+  top: 50px;
   margin-top: 50px;
   width: 100%;
   justify-content: center;
+  align-items: center;
   border-top: lightgray solid 1px;
-  padding-top: 200px;
+}
+.logo2{
+  height: 150px;
+  width: 300px;
+  margin-top: 60px;
 }
 
 
